@@ -1,19 +1,19 @@
 [
-    {
-        "id": "circuit_fusion-wmnt-dai-musdc",
-        "poolId": "fusionX-dai-musdc",
-        "name": "FusionX",
-        "assets": ["DAI", "MUSDC"],
-        "tokenAddress": "0xd3754c0D018A5A5E318129Fb12dEdED653c700Ba",
-        "earnedToken": "WMNT",
-        "earnedTokenDecimals": 18,
-        "earnedTokenAddress": "0xc86c7C0eFbd6A49B35E8714C5f59D99De09A225b",
-        "earnContractAddress": "0x15fd34559B0508F4C8504aC4c1122b4AD35d2660",
-        "earnedOracle": "tokens",
-        "earnedOracleId": "WMNT",
-        "partnership": true,
-        "status": "active",
-        "isMooStaked": true,
-        "partners": ["FusionX"]
-      }    
+  {
+    "id": "circuit_fusionX-wmnt-dai-musdc",
+    "poolId": "fusionX-dai-musdc",
+    "name": "fusionX",
+    "assets": ["DAI", "MUSDC"],
+    "tokenAddress": "0x85B781896efCDa720333c7440a1940cce8B75B3D",
+    "earnedToken": "WMNT",
+    "earnedTokenDecimals": 18,
+    "earnedTokenAddress": "0xB38E748dbCe79849b8298A1D206C8374EFc16DA7",
+    "earnContractAddress": "0x68e4e1009055e1C6cE4dcE8A8bFCE8DC9d8Dd104",
+    "earnedOracle": "tokens",
+    "earnedOracleId": "WMNT",
+    "partnership": true,
+    "status": "active",
+    "isMooStaked": true,
+    "partners": ["fusionX"]
+  }     
 ]
