@@ -1,26 +1,3 @@
 [
-  {
-    "id": "fusionX-dai-musdc",
-    "name": "DAI~MUSDC LP",
-    "token": "DAI-MUSDC LP",
-    "tokenAddress": "0x5FaE8de9A0466accc3a9A2068EC6D40dB4157904",
-    "tokenDecimals": 18,
-    "tokenProviderId": "fusionX",
-    "earnedToken": "circuitFusionDAI-MUSDC",
-    "earnedTokenAddress": "0x85B781896efCDa720333c7440a1940cce8B75B3D",
-    "earnContractAddress": "0x85B781896efCDa720333c7440a1940cce8B75B3D",
-    "oracle": "lps",
-    "oracleId": "fusionX-dai-musdc",
-    "status": "active",
-    "retireReason": "rewards",
-    "platformId": "fusionX",
-    "assets": ["DAI", "MUSDC"],
-    "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_LOW", "MCAP_MEDIUM", "AUDIT"],
-    "strategyTypeId": "lp",
-    "buyTokenUrl": "https://fusionx.finance/v2/add/0xB38E748dbCe79849b8298A1D206C8374EFc16DA7/0xc92747b1e4Bd5F89BBB66bAE657268a5F4c4850C/100",
-    "addLiquidityUrl": "https://fusionx.finance/v2/add/0xB38E748dbCe79849b8298A1D206C8374EFc16DA7/0xc92747b1e4Bd5F89BBB66bAE657268a5F4c4850C/100",
-    "removeLiquidityUrl": "https://fusionx.finance/v2/add/0xB38E748dbCe79849b8298A1D206C8374EFc16DA7/0xc92747b1e4Bd5F89BBB66bAE657268a5F4c4850C/100",
-    "network": "mantleTestnet",
-    "createdAt": 14945090
-  }
+  
 ]
