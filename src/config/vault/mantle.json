@@ -1,3 +1,27 @@
 [
- 
-]
+    {
+      "id": "lendle-lend-mnt",
+      "name": "LEND-MNT LP",
+      "token": "LEND-MNT LP",
+      "tokenAddress": "0x4c57BE599d0e0414785943569E9B6A66dA79Aa6b",
+      "tokenDecimals": 18,
+      "tokenProviderId": "lendle",
+      "earnedToken": "circuit-lend-mnt-FusionX-Lendle",
+      "earnedTokenAddress": "0x5E5F4742bb1B0fF14b88F2748AA932e7c5368Aff",
+      "earnContractAddress": "0x5E5F4742bb1B0fF14b88F2748AA932e7c5368Aff",
+      "oracle": "lps",
+      "oracleId": "lendle-lend-mnt",
+      "status": "active",
+      "platformId": "lendle",
+      "assets": ["LEND", "MNT"],
+      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED"],
+      "strategyTypeId": "lp",
+      "buyTokenUrl": "https://fusionx.finance/v2/add/0x25356aeca4210eF7553140edb9b8026089E49396/MNT",
+      "addLiquidityUrl": "https://fusionx.finance/v2/add/0x25356aeca4210eF7553140edb9b8026089E49396/MNT",
+      "removeLiquidityUrl": "https://fusionx.finance/v2/remove/0x25356aeca4210eF7553140edb9b8026089E49396/MNT",
+      "network": "mantle",
+      "createdAt": 1693944300,
+      "harvestOnDeposit": true
+    }
+  ]
+  
