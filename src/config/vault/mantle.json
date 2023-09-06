@@ -1,27 +1,153 @@
 [
-    {
-      "id": "lendle-lend-mnt",
-      "name": "LEND-MNT LP",
-      "token": "LEND-MNT LP",
-      "tokenAddress": "0x4c57BE599d0e0414785943569E9B6A66dA79Aa6b",
-      "tokenDecimals": 18,
-      "tokenProviderId": "lendle",
-      "earnedToken": "circuit-lend-mnt-FusionX-Lendle",
-      "earnedTokenAddress": "0xC8f1664b9725Fd0a0A2Ad288D82F2dFB53B56F4c",
-      "earnContractAddress": "0xC8f1664b9725Fd0a0A2Ad288D82F2dFB53B56F4c",
-      "oracle": "lps",
-      "oracleId": "lendle-lend-mnt",
-      "status": "active",
-      "platformId": "lendle",
-      "assets": ["LEND", "MNT"],
-      "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED"],
-      "strategyTypeId": "lp",
-      "buyTokenUrl": "https://fusionx.finance/v2/add/0x25356aeca4210eF7553140edb9b8026089E49396/MNT",
-      "addLiquidityUrl": "https://fusionx.finance/v2/add/0x25356aeca4210eF7553140edb9b8026089E49396/MNT",
-      "removeLiquidityUrl": "https://fusionx.finance/v2/remove/0x25356aeca4210eF7553140edb9b8026089E49396/MNT",
-      "network": "mantle",
-      "createdAt": 1693944300,
-      "harvestOnDeposit": true
-    }
-  ]
-  
+  {
+    "id": "lendle-wmnt-supply",
+    "name": "WMNT Supply",
+    "token": "WMNT",
+    "tokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+    "tokenDecimals": 18,
+    "earnedToken": "circuit-WMNT-Lendle-Supply",
+    "earnedTokenAddress": "0x2fA81D08d060c173305800D0bB72ebF71Ba2162B",
+    "earnContractAddress": "0x2fA81D08d060c173305800D0bB72ebF71Ba2162B",
+    "oracle": "tokens",
+    "oracleId": "WMNT",
+    "status": "active",
+    "platformId": "lendle",
+    "assets": ["WMNT"],
+    "strategyTypeId": "lending",
+    "risks": [
+      "COMPLEXITY_MID",
+      "IL_NONE",
+      "MCAP_MEDIUM"
+    ],
+    "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+    "network": "mantle",
+    "createdAt": 1694025732
+  },
+  {
+    "id": "lendle-weth-supply",
+    "name": "WETH Supply",
+    "token": "WETH",
+    "tokenAddress": "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
+    "tokenDecimals": 18,
+    "earnedToken": "circuit-WETH-Lendle-Supply",
+    "earnedTokenAddress": "0x803903BfCF6Aa63620F3598b1C60ccbA9C752276",
+    "earnContractAddress": "0x803903BfCF6Aa63620F3598b1C60ccbA9C752276",
+    "oracle": "tokens",
+    "oracleId": "WETH",
+    "status": "active",
+    "platformId": "lendle",
+    "assets": ["WETH"],
+    "strategyTypeId": "lending",
+    "risks": [
+      "COMPLEXITY_MID",
+      "IL_NONE",
+      "MCAP_MEDIUM"
+    ],
+    "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
+    "network": "mantle",
+    "createdAt": 1694025732
+  },
+  {
+    "id": "lendle-wbtc-supply",
+    "name": "WBTC Supply",
+    "token": "WBTC",
+    "tokenAddress": "0xCAbAE6f6Ea1ecaB08Ad02fE02ce9A44F09aebfA2",
+    "tokenDecimals": 8,
+    "earnedToken": "circuit-WBTC-Lendle-Supply",
+    "earnedTokenAddress": "0x693cb6bA442A19226f15233ab1D5a14530170398",
+    "earnContractAddress": "0x693cb6bA442A19226f15233ab1D5a14530170398",
+    "oracle": "tokens",
+    "oracleId": "WBTC",
+    "status": "active",
+    "platformId": "lendle",
+    "assets": ["WBTC"],
+    "strategyTypeId": "lending",
+    "risks": [
+      "COMPLEXITY_MID",
+      "IL_NONE",
+      "MCAP_MEDIUM"
+    ],
+    "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0xcabae6f6ea1ecab08ad02fe02ce9a44f09aebfa2",
+    "network": "mantle",
+    "createdAt": 1694025732
+  },
+  {
+    "id": "lendle-usdt-supply",
+    "name": "USDT Supply",
+    "token": "USDT",
+    "tokenAddress": "0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
+    "tokenDecimals": 6,
+    "earnedToken": "circuit-USDT-Lendle-Supply",
+    "earnedTokenAddress": "0xa7cF0544fDaC7e173fb73733429AaE8a27Cb2637",
+    "earnContractAddress": "0xa7cF0544fDaC7e173fb73733429AaE8a27Cb2637",
+    "oracle": "tokens",
+    "oracleId": "USDT",
+    "status": "active",
+    "platformId": "lendle",
+    "assets": ["USDT"],
+    "strategyTypeId": "lending",
+    "risks": [
+      "COMPLEXITY_MID",
+      "IL_NONE",
+      "MCAP_MEDIUM"
+    ],
+    "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0x201eba5cc46d216ce6dc03f6a759e8e766e956ae",
+    "network": "mantle",
+    "createdAt": 1694025732
+  },
+  {
+    "id": "lendle-usdc-supply",
+    "name": "USDC Supply",
+    "token": "USDC",
+    "tokenAddress": "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9",
+    "tokenDecimals": 6,
+    "earnedToken": "circuit-USDC-Lendle-Supply",
+    "earnedTokenAddress": "0x5323E58f8A957823936d41637acB87311614104D",
+    "earnContractAddress": "0x5323E58f8A957823936d41637acB87311614104D",
+    "oracle": "tokens",
+    "oracleId": "USDC",
+    "status": "active",
+    "platformId": "lendle",
+    "assets": ["USDC"],
+    "strategyTypeId": "lending",
+    "risks": [
+      "COMPLEXITY_MID",
+      "IL_NONE",
+      "MCAP_MEDIUM"
+    ],
+    "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+    "network": "mantle",
+    "createdAt": 1694025732
+  },
+
+  {
+    "id": "lendle-lend-mnt",
+    "name": "LEND-MNT LP",
+    "token": "LEND-MNT LP",
+    "tokenAddress": "0x4c57BE599d0e0414785943569E9B6A66dA79Aa6b",
+    "tokenDecimals": 18,
+    "tokenProviderId": "lendle",
+    "earnedToken": "circuit-lend-mnt-FusionX-Lendle",
+    "earnedTokenAddress": "0xC8f1664b9725Fd0a0A2Ad288D82F2dFB53B56F4c",
+    "earnContractAddress": "0xC8f1664b9725Fd0a0A2Ad288D82F2dFB53B56F4c",
+    "oracle": "lps",
+    "oracleId": "lendle-lend-mnt",
+    "status": "active",
+    "platformId": "lendle",
+    "assets": [
+      "LEND",
+      "MNT"
+    ],
+    "risks": [
+      "COMPLEXITY_LOW",
+      "BATTLE_TESTED"
+    ],
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://fusionx.finance/v2/add/0x25356aeca4210eF7553140edb9b8026089E49396/MNT",
+    "addLiquidityUrl": "https://fusionx.finance/v2/add/0x25356aeca4210eF7553140edb9b8026089E49396/MNT",
+    "removeLiquidityUrl": "https://fusionx.finance/v2/remove/0x25356aeca4210eF7553140edb9b8026089E49396/MNT",
+    "network": "mantle",
+    "createdAt": 1693944300,
+    "harvestOnDeposit": true
+  }
+]
