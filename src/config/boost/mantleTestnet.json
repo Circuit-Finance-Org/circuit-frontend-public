@@ -1,19 +1,2 @@
 [
-  {
-    "id": "circuit_fusionX-wmnt-dai-musdc",
-    "poolId": "fusionX-dai-musdc",
-    "name": "fusionX",
-    "assets": ["DAI", "MUSDC"],
-    "tokenAddress": "0x85B781896efCDa720333c7440a1940cce8B75B3D",
-    "earnedToken": "WMNT",
-    "earnedTokenDecimals": 18,
-    "earnedTokenAddress": "0xB38E748dbCe79849b8298A1D206C8374EFc16DA7",
-    "earnContractAddress": "0x68e4e1009055e1C6cE4dcE8A8bFCE8DC9d8Dd104",
-    "earnedOracle": "tokens",
-    "earnedOracleId": "WMNT",
-    "partnership": true,
-    "status": "active",
-    "isMooStaked": true,
-    "partners": ["fusionX"]
-  }     
 ]
