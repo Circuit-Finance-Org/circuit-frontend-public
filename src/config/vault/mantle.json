@@ -21,7 +21,8 @@
     ],
     "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
     "network": "mantle",
-    "createdAt": 1694025732
+    "createdAt": 1694025732,
+    "startBlock": 5192099,
   },
   {
     "id": "lendle-weth-supply",
@@ -45,7 +46,8 @@
     ],
     "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
     "network": "mantle",
-    "createdAt": 1694025732
+    "createdAt": 1694025732,
+    "startBlock": 5192127,
   },
   {
     "id": "lendle-wbtc-supply",
@@ -69,7 +71,8 @@
     ],
     "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0xcabae6f6ea1ecab08ad02fe02ce9a44f09aebfa2",
     "network": "mantle",
-    "createdAt": 1694025732
+    "createdAt": 1694025732,
+    "startBlock": 5192140,
   },
   {
     "id": "lendle-usdt-supply",
@@ -93,7 +96,8 @@
     ],
     "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0x201eba5cc46d216ce6dc03f6a759e8e766e956ae",
     "network": "mantle",
-    "createdAt": 1694025732
+    "createdAt": 1694025732,
+    "startBlock": 5192170,
   },
   {
     "id": "lendle-usdc-supply",
@@ -117,7 +121,8 @@
     ],
     "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
     "network": "mantle",
-    "createdAt": 1694025732
+    "createdAt": 1694025732,
+    "startBlock": 5192199,
   },
 
   {
@@ -148,6 +153,7 @@
     "removeLiquidityUrl": "https://fusionx.finance/v2/remove/0x25356aeca4210eF7553140edb9b8026089E49396/MNT",
     "network": "mantle",
     "createdAt": 1693944300,
+    "startBlock": 5180594,
     "harvestOnDeposit": true
   }
 ]
