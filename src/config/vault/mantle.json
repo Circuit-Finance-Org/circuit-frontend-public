@@ -1,7 +1,32 @@
 [
   {
-    "id": "lendle-wmnt-supply",
-    "name": "WMNT Supply",
+    "id": "ktx-mantle-ktc",
+    "name": "KTC",
+    "token": "KTC",
+    "tokenAddress": "0x779f4E5fB773E17Bc8E809F4ef1aBb140861159a",
+    "tokenDecimals": 18,
+    "earnedToken": "circuit-KTC-KTX",
+    "earnedTokenAddress": "0x5b5EDFEC1D3d1906a71EBC23BD2b040302579388",
+    "earnContractAddress": "0x5b5EDFEC1D3d1906a71EBC23BD2b040302579388",
+    "oracle": "tokens",
+    "oracleId": "KTC",
+    "status": "active",
+    "platformId": "ktx",
+    "assets": ["KTC"],
+    "strategyTypeId": "klp-ktx",
+    "risks": [
+      "COMPLEXITY_LOW",
+      "BATTLE_TESTED",
+      "IL_NONE"
+    ],
+    "buyTokenUrl": "https://agni.finance/swap?inputCurrency=MNT&outputCurrency=0x779f4E5fB773E17Bc8E809F4ef1aBb140861159a",
+    "network": "mantle",
+    "createdAt": 1695318034,
+    "startBlock": 8547129
+  },
+  {
+    "id": "lendle-wmnt-looping",
+    "name": "WMNT",
     "token": "WMNT",
     "tokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
     "tokenDecimals": 18,
@@ -13,7 +38,7 @@
     "status": "active",
     "platformId": "lendle",
     "assets": ["WMNT"],
-    "strategyTypeId": "lending",
+    "strategyTypeId": "looping",
     "risks": [
       "COMPLEXITY_MID",
       "IL_NONE",
@@ -25,8 +50,8 @@
     "startBlock": 5192099
   },
   {
-    "id": "lendle-weth-supply",
-    "name": "WETH Supply",
+    "id": "lendle-weth-looping",
+    "name": "WETH",
     "token": "WETH",
     "tokenAddress": "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
     "tokenDecimals": 18,
@@ -38,7 +63,7 @@
     "status": "active",
     "platformId": "lendle",
     "assets": ["WETH"],
-    "strategyTypeId": "lending",
+    "strategyTypeId": "looping",
     "risks": [
       "COMPLEXITY_MID",
       "IL_NONE",
@@ -50,8 +75,8 @@
     "startBlock": 5192127
   },
   {
-    "id": "lendle-wbtc-supply",
-    "name": "WBTC Supply",
+    "id": "lendle-wbtc-looping",
+    "name": "WBTC",
     "token": "WBTC",
     "tokenAddress": "0xCAbAE6f6Ea1ecaB08Ad02fE02ce9A44F09aebfA2",
     "tokenDecimals": 8,
@@ -63,7 +88,7 @@
     "status": "active",
     "platformId": "lendle",
     "assets": ["WBTC"],
-    "strategyTypeId": "lending",
+    "strategyTypeId": "looping",
     "risks": [
       "COMPLEXITY_MID",
       "IL_NONE",
@@ -75,8 +100,8 @@
     "startBlock": 5192140
   },
   {
-    "id": "lendle-usdt-supply",
-    "name": "USDT Supply",
+    "id": "lendle-usdt-looping",
+    "name": "USDT",
     "token": "USDT",
     "tokenAddress": "0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
     "tokenDecimals": 6,
@@ -88,7 +113,7 @@
     "status": "active",
     "platformId": "lendle",
     "assets": ["USDT"],
-    "strategyTypeId": "lending",
+    "strategyTypeId": "looping",
     "risks": [
       "COMPLEXITY_MID",
       "IL_NONE",
@@ -100,8 +125,8 @@
     "startBlock": 5192170
   },
   {
-    "id": "lendle-usdc-supply",
-    "name": "USDC Supply",
+    "id": "lendle-usdc-looping",
+    "name": "USDC",
     "token": "USDC",
     "tokenAddress": "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9",
     "tokenDecimals": 6,
@@ -113,7 +138,7 @@
     "status": "active",
     "platformId": "lendle",
     "assets": ["USDC"],
-    "strategyTypeId": "lending",
+    "strategyTypeId": "looping",
     "risks": [
       "COMPLEXITY_MID",
       "IL_NONE",
