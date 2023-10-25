@@ -1,31 +1,7 @@
 [
   {
-    "id": "ktx-mantle-ktc",
-    "name": "KTC",
-    "token": "KTC",
-    "tokenAddress": "0x779f4E5fB773E17Bc8E809F4ef1aBb140861159a",
-    "tokenDecimals": 18,
-    "earnedToken": "circuit-KTC-KTX",
-    "earnedTokenAddress": "0x5b5EDFEC1D3d1906a71EBC23BD2b040302579388",
-    "earnContractAddress": "0x5b5EDFEC1D3d1906a71EBC23BD2b040302579388",
-    "oracle": "tokens",
-    "oracleId": "KTC",
-    "status": "active",
-    "platformId": "ktx",
-    "assets": ["KTC"],
-    "strategyTypeId": "klp-ktx",
-    "risks": [
-      "COMPLEXITY_LOW",
-      "BATTLE_TESTED",
-      "IL_NONE"
-    ],
-    "buyTokenUrl": "https://agni.finance/swap?inputCurrency=MNT&outputCurrency=0x779f4E5fB773E17Bc8E809F4ef1aBb140861159a",
-    "network": "mantle",
-    "createdAt": 1695318034
-  },
-  {
-    "id": "lendle-wmnt-looped",
-    "name": "WMNT",
+    "id": "lendle-wmnt-supply",
+    "name": "WMNT Supply",
     "token": "WMNT",
     "tokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
     "tokenDecimals": 18,
@@ -37,7 +13,7 @@
     "status": "active",
     "platformId": "lendle",
     "assets": ["WMNT"],
-    "strategyTypeId": "looping",
+    "strategyTypeId": "lending",
     "risks": [
       "COMPLEXITY_MID",
       "IL_NONE",
@@ -45,11 +21,12 @@
     ],
     "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
     "network": "mantle",
-    "createdAt": 1694025732
+    "createdAt": 1694025732,
+    "startBlock": 5192099
   },
   {
-    "id": "lendle-weth-looped",
-    "name": "WETH",
+    "id": "lendle-weth-supply",
+    "name": "WETH Supply",
     "token": "WETH",
     "tokenAddress": "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
     "tokenDecimals": 18,
@@ -61,7 +38,7 @@
     "status": "active",
     "platformId": "lendle",
     "assets": ["WETH"],
-    "strategyTypeId": "looping",
+    "strategyTypeId": "lending",
     "risks": [
       "COMPLEXITY_MID",
       "IL_NONE",
@@ -69,11 +46,12 @@
     ],
     "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
     "network": "mantle",
-    "createdAt": 1694025732
+    "createdAt": 1694025732,
+    "startBlock": 5192127
   },
   {
-    "id": "lendle-wbtc-looped",
-    "name": "WBTC",
+    "id": "lendle-wbtc-supply",
+    "name": "WBTC Supply",
     "token": "WBTC",
     "tokenAddress": "0xCAbAE6f6Ea1ecaB08Ad02fE02ce9A44F09aebfA2",
     "tokenDecimals": 8,
@@ -85,7 +63,7 @@
     "status": "active",
     "platformId": "lendle",
     "assets": ["WBTC"],
-    "strategyTypeId": "looping",
+    "strategyTypeId": "lending",
     "risks": [
       "COMPLEXITY_MID",
       "IL_NONE",
@@ -93,11 +71,12 @@
     ],
     "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0xcabae6f6ea1ecab08ad02fe02ce9a44f09aebfa2",
     "network": "mantle",
-    "createdAt": 1694025732
+    "createdAt": 1694025732,
+    "startBlock": 5192140
   },
   {
-    "id": "lendle-usdt-looped",
-    "name": "USDT",
+    "id": "lendle-usdt-supply",
+    "name": "USDT Supply",
     "token": "USDT",
     "tokenAddress": "0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
     "tokenDecimals": 6,
@@ -109,7 +88,7 @@
     "status": "active",
     "platformId": "lendle",
     "assets": ["USDT"],
-    "strategyTypeId": "looping",
+    "strategyTypeId": "lending",
     "risks": [
       "COMPLEXITY_MID",
       "IL_NONE",
@@ -117,11 +96,12 @@
     ],
     "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0x201eba5cc46d216ce6dc03f6a759e8e766e956ae",
     "network": "mantle",
-    "createdAt": 1694025732
+    "createdAt": 1694025732,
+    "startBlock": 5192170
   },
   {
-    "id": "lendle-usdc-looped",
-    "name": "USDC",
+    "id": "lendle-usdc-supply",
+    "name": "USDC Supply",
     "token": "USDC",
     "tokenAddress": "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9",
     "tokenDecimals": 6,
@@ -133,7 +113,7 @@
     "status": "active",
     "platformId": "lendle",
     "assets": ["USDC"],
-    "strategyTypeId": "looping",
+    "strategyTypeId": "lending",
     "risks": [
       "COMPLEXITY_MID",
       "IL_NONE",
@@ -141,7 +121,8 @@
     ],
     "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
     "network": "mantle",
-    "createdAt": 1694025732
+    "createdAt": 1694025732,
+    "startBlock": 5192199
   },
 
   {
@@ -172,6 +153,7 @@
     "removeLiquidityUrl": "https://fusionx.finance/v2/remove/0x25356aeca4210eF7553140edb9b8026089E49396/MNT",
     "network": "mantle",
     "createdAt": 1693944300,
+    "startBlock": 5180594,
     "harvestOnDeposit": true
   }
 ]
