@@ -25,7 +25,7 @@
     "startBlock": 8547129
   },
   {
-    "id": "lendle-wmnt-looping",
+    "id": "lendle-wmnt-looped",
     "name": "WMNT",
     "token": "WMNT",
     "tokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
@@ -50,7 +50,7 @@
     "startBlock": 5192099
   },
   {
-    "id": "lendle-weth-looping",
+    "id": "lendle-weth-looped",
     "name": "WETH",
     "token": "WETH",
     "tokenAddress": "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
@@ -75,7 +75,7 @@
     "startBlock": 5192127
   },
   {
-    "id": "lendle-wbtc-looping",
+    "id": "lendle-wbtc-looped",
     "name": "WBTC",
     "token": "WBTC",
     "tokenAddress": "0xCAbAE6f6Ea1ecaB08Ad02fE02ce9A44F09aebfA2",
@@ -100,7 +100,7 @@
     "startBlock": 5192140
   },
   {
-    "id": "lendle-usdt-looping",
+    "id": "lendle-usdt-looped",
     "name": "USDT",
     "token": "USDT",
     "tokenAddress": "0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
@@ -125,7 +125,7 @@
     "startBlock": 5192170
   },
   {
-    "id": "lendle-usdc-looping",
+    "id": "lendle-usdc-looped",
     "name": "USDC",
     "token": "USDC",
     "tokenAddress": "0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9",
