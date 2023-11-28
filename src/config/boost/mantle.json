@@ -42,27 +42,6 @@
       ]
     },
     {
-      "id": "cvt_lendle-wbtc-looped",
-      "poolId": "lendle-wbtc-looped",
-      "name": "Lendle",
-      "assets": [
-        "WBTC"
-      ],
-      "tokenAddress": "0x693cb6bA442A19226f15233ab1D5a14530170398",
-      "earnedToken": "LEND",
-      "earnedTokenDecimals": 18,
-      "earnedTokenAddress": "0x25356aeca4210eF7553140edb9b8026089E49396",
-      "earnContractAddress": "0xCF2e5bcc21b266a2537536918Ef87f04DFF0e895",
-      "earnedOracle": "tokens",
-      "earnedOracleId": "LEND",
-      "partnership": true,
-      "status": "prestake",
-      "isMooStaked": true,
-      "partners": [
-        "lendle"
-      ]
-    },
-    {
       "id": "cvt_lendle-usdt-looped",
       "poolId": "lendle-usdt-looped",
       "name": "Lendle",
@@ -104,26 +83,4 @@
         "lendle"
       ]
     },
-    {
-      "id": "cvt_lendle-lend-mnt",
-      "poolId": "lendle-lend-mnt",
-      "name": "Lendle",
-      "assets": [
-        "LEND",
-        "MNT"
-      ],
-      "tokenAddress": "0xC8f1664b9725Fd0a0A2Ad288D82F2dFB53B56F4c",
-      "earnedToken": "LEND",
-      "earnedTokenDecimals": 18,
-      "earnedTokenAddress": "0x25356aeca4210eF7553140edb9b8026089E49396",
-      "earnContractAddress": "0xDE628B408DAcd44b3D5E829e4f885e0868d7e1a5",
-      "earnedOracle": "tokens",
-      "earnedOracleId": "LEND",
-      "partnership": true,
-      "status": "prestake",
-      "isMooStaked": true,
-      "partners": [
-        "lendle"
-      ]
-    }
   ]
