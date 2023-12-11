@@ -29,7 +29,7 @@
     "startBlock": 24763947
   },
   {
-    "id": "stargate-mantle-usdc",
+    "id": "stargate-mantle-usdt",
     "name": "USDT LP",
     "type": "standard",
     "token": "S*USDT",
