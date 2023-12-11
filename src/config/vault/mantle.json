@@ -51,7 +51,7 @@
       "IL_NONE",
       "CONTRACTS_VERIFIED"
     ],
-    "addLiquidityUrl": "https://stargate.finance/pool/USDC-MANTLE",
+    "addLiquidityUrl": "https://stargate.finance/pool/USDT-MANTLE",
     "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
     "network": "mantle",
     "createdAt": 1701713439,
