@@ -1,4 +1,28 @@
 [
+  {
+    "id": "lendle-meth-looped",
+    "name": "METH",
+    "token": "METH",
+    "tokenAddress": "0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "tokenDecimals": 18,
+    "earnedToken": "circuit-METH-Lendle-Supply",
+    "earnedTokenAddress": "0x96520c74eF5CD3b4197871387cdd7C827463aBBb",
+    "earnContractAddress": "0x96520c74eF5CD3b4197871387cdd7C827463aBBb",
+    "oracle": "tokens",
+    "oracleId": "METH",
+    "status": "active",
+    "platformId": "lendle",
+    "assets": ["METH"],
+    "strategyTypeId": "looping",
+    "risks": [
+      "COMPLEXITY_MID",
+      "BATTLE_TESTED",
+      "IL_NONE"
+    ],
+    "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "network": "mantle",
+    "createdAt": 1703269259
+      },
     {
     "id": "stargate-mantle-usdc",
     "name": "USDC LP",
