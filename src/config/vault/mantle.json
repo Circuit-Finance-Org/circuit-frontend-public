@@ -3,9 +3,9 @@
     "id": "lendle-meth-looped",
     "name": "METH",
     "token": "METH",
-    "tokenAddress": "0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "tokenAddress": "0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
     "tokenDecimals": 18,
-    "earnedToken": "circuit-METH-Lendle-Supply",
+    "earnedToken": "circuit-METH-Lendle-Loop",
     "earnedTokenAddress": "0x96520c74eF5CD3b4197871387cdd7C827463aBBb",
     "earnContractAddress": "0x96520c74eF5CD3b4197871387cdd7C827463aBBb",
     "oracle": "tokens",
@@ -19,7 +19,7 @@
       "BATTLE_TESTED",
       "IL_NONE"
     ],
-    "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
     "network": "mantle",
     "createdAt": 1703269259
       },
