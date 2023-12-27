@@ -21,7 +21,8 @@
     ],
     "buyTokenUrl": "https://fusionx.finance/swap?outputCurrency=0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
     "network": "mantle",
-    "createdAt": 1703269259
+    "createdAt": 1703269259,
+    "startBlock": 29883043
       },
     {
     "id": "stargate-mantle-usdc",
