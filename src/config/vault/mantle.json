@@ -1,5 +1,36 @@
 [
   {
+    "id": "moe-moe-meth",
+    "name": "MOE-mETH LP",
+    "token": "MOE-mETH LP",
+    "tokenAddress": "0x57dbBf8ad81898F430cF45FEad615a1e049c9F76",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnedToken": "circuit moe-moe-meth",
+    "earnedTokenAddress": "0x4f7F492e506443354aD5Cd19139ad46964af5768",
+    "earnContractAddress": "0x4f7F492e506443354aD5Cd19139ad46964af5768",
+    "oracle": "lps",
+    "oracleId": "moe-moe-meth",
+    "status": "active",
+    "platformId": "moe",
+    "assets": [
+      "MOE",
+      "mETH"
+    ],
+    "risks": [
+      "COMPLEXITY_LOW",
+      "BATTLE_TESTED"
+    ],
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x4515A45337F461A11Ff0FE8aBF3c606AE5dC00c9/0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+    "removeLiquidityUrl": "https://merchantmoe.com/pool/v1/0x4515A45337F461A11Ff0FE8aBF3c606AE5dC00c9/0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+    "network": "mantle",
+    "createdAt": 1708119325,
+    "startBlock": 55684449,
+    "harvestOnDeposit": false
+  },
+  {
   "id": "moe-meth-weth",
   "name": "mETH-WETH LP",
   "token": "mETH-WETH LP",
