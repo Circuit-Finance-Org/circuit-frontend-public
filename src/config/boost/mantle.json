@@ -1,173 +1,195 @@
 [
-      {
-    "id": "cvt_moe-wmnt-meth",
-    "poolId": "moe-wmnt-meth",
-    "name": "Mantle",
-    "assets": [
-      "WMNT",
-      "mETH"
-    ],
-    "tokenAddress": "0xc37c7dEBa5E7F5dE572C914D5c159EA08DE1fefF",
-    "earnedToken": "WMNT",
-    "earnedTokenDecimals": 18,
-    "earnedTokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
-    "earnContractAddress": "0x673B6ABF39a4084D0D9b6e5eDe95AA970cc2Ae90",
-    "earnedOracle": "tokens",
-    "earnedOracleId": "WMNT",
-    "partnership": true,
-    "status": "active",
-    "isMooStaked": true,
-    "partners": [
-      "mantle"
-    ]
-  },
-      {
-    "id": "cvt_moe-minu-wmnt",
-    "poolId": "moe-minu-wmnt",
-    "name": "Mantle",
-    "assets": [
-      "MINU",
-      "WMNT"
-    ],
-    "tokenAddress": "0x6DEC755Effd9A7663995DC7Cf90fc6Cc8A52be0C",
-    "earnedToken": "WMNT",
-    "earnedTokenDecimals": 18,
-    "earnedTokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
-    "earnContractAddress": "0x601dDbd5bFaa4E58fCeB0CaB53045f26A943e64a",
-    "earnedOracle": "tokens",
-    "earnedOracleId": "WMNT",
-    "partnership": true,
-    "status": "prestake",
-    "isMooStaked": true,
-    "partners": [
-      "mantle"
-    ]
-  },
     {
-    "id": "cvt_moe-meth-weth",
-    "poolId": "moe-meth-weth",
-    "name": "Mantle",
-    "assets": [
-      "mETH",
-      "WETH"
-    ],
-    "tokenAddress": "0x16FA0C5f3eA649259C02c075dbA1C31fc66ea4E0",
-    "earnedToken": "WMNT",
-    "earnedTokenDecimals": 18,
-    "earnedTokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
-    "earnContractAddress": "0xBa81f677609Ab095acd9c1d549EA3BfFbd047047",
-    "earnedOracle": "tokens",
-    "earnedOracleId": "WMNT",
-    "partnership": true,
-    "status": "active",
-    "isMooStaked": true,
-    "partners": [
-      "mantle"
-    ]
-  },
+        "id": "cvt_moe-moe-meth",
+        "poolId": "moe-moe-meth",
+        "name": "OASIS",
+        "assets": [
+            "MOE",
+            "mETH"
+        ],
+        "tokenAddress": "0x4f7F492e506443354aD5Cd19139ad46964af5768",
+        "earnedToken": "WMNT",
+        "earnedTokenDecimals": 18,
+        "earnedTokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+        "earnContractAddress": "0x3B06125360c2e255ADA4651c2CD49D8612D5a303",
+        "earnedOracle": "tokens",
+        "earnedOracleId": "WMNT",
+        "partnership": true,
+        "status": "prestake",
+        "isMooStaked": true,
+        "partners": [
+            "mantle"
+        ]
+    },
     {
-    "id": "cvt_lendle-meth-looped",
-    "poolId": "lendle-meth-looped",
-    "name": "Mantle",
-    "assets": [
-      "mETH"
-    ],
-    "tokenAddress": "0x96520c74eF5CD3b4197871387cdd7C827463aBBb",
-    "earnedToken": "WMNT",
-    "earnedTokenDecimals": 18,
-    "earnedTokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
-    "earnContractAddress": "0x4eBfee1D60c59BE90fcAe4f7c240C41957E54e0b",
-    "earnedOracle": "tokens",
-    "earnedOracleId": "WMNT",
-    "partnership": true,
-    "status": "active",
-    "isMooStaked": true,
-    "partners": [
-      "mantle"
-    ]
-  },
-  {
-    "id": "cvt_lendle-wmnt-looped",
-    "poolId": "lendle-wmnt-looped",
-    "name": "Lendle",
-    "assets": [
-      "WMNT"
-    ],
-    "tokenAddress": "0x2fA81D08d060c173305800D0bB72ebF71Ba2162B",
-    "earnedToken": "LEND",
-    "earnedTokenDecimals": 18,
-    "earnedTokenAddress": "0x25356aeca4210eF7553140edb9b8026089E49396",
-    "earnContractAddress": "0xCfAb453ac159FFF8Af0A61cd1a50Fb9B9377917b",
-    "earnedOracle": "tokens",
-    "earnedOracleId": "LEND",
-    "partnership": true,
-    "status": "finished",
-    "isMooStaked": true,
-    "partners": [
-      "lendle"
-    ]
-  },
-  {
-    "id": "cvt_lendle-weth-looped",
-    "poolId": "lendle-weth-looped",
-    "name": "Lendle",
-    "assets": [
-      "WETH"
-    ],
-    "tokenAddress": "0x803903BfCF6Aa63620F3598b1C60ccbA9C752276",
-    "earnedToken": "LEND",
-    "earnedTokenDecimals": 18,
-    "earnedTokenAddress": "0x25356aeca4210eF7553140edb9b8026089E49396",
-    "earnContractAddress": "0x1cC89504a77be95442e8CFbED8010A51a385c31a",
-    "earnedOracle": "tokens",
-    "earnedOracleId": "LEND",
-    "partnership": true,
-    "status": "finished",
-    "isMooStaked": true,
-    "partners": [
-      "lendle"
-    ]
-  },
-  {
-    "id": "cvt_lendle-usdt-looped",
-    "poolId": "lendle-usdt-looped",
-    "name": "Lendle",
-    "assets": [
-      "USDT"
-    ],
-    "tokenAddress": "0xa7cF0544fDaC7e173fb73733429AaE8a27Cb2637",
-    "earnedToken": "LEND",
-    "earnedTokenDecimals": 18,
-    "earnedTokenAddress": "0x25356aeca4210eF7553140edb9b8026089E49396",
-    "earnContractAddress": "0x466d27347A97ACa51b25FEd5D33E10AAe92b466A",
-    "earnedOracle": "tokens",
-    "earnedOracleId": "LEND",
-    "partnership": true,
-    "status": "finished",
-    "isMooStaked": true,
-    "partners": [
-      "lendle"
-    ]
-  },
-  {
-    "id": "cvt_lendle-usdc-looped",
-    "poolId": "lendle-usdc-looped",
-    "name": "Lendle",
-    "assets": [
-      "USDC"
-    ],
-    "tokenAddress": "0x5323E58f8A957823936d41637acB87311614104D",
-    "earnedToken": "LEND",
-    "earnedTokenDecimals": 18,
-    "earnedTokenAddress": "0x25356aeca4210eF7553140edb9b8026089E49396",
-    "earnContractAddress": "0xF948bB87664B9A9306fc108C786787E2F1129285",
-    "earnedOracle": "tokens",
-    "earnedOracleId": "LEND",
-    "partnership": true,
-    "status": "finished",
-    "isMooStaked": true,
-    "partners": [
-      "lendle"
-    ]
-  }
+        "id": "cvt_moe-wmnt-meth",
+        "poolId": "moe-wmnt-meth",
+        "name": "Mantle",
+        "assets": [
+            "WMNT",
+            "mETH"
+        ],
+        "tokenAddress": "0xc37c7dEBa5E7F5dE572C914D5c159EA08DE1fefF",
+        "earnedToken": "WMNT",
+        "earnedTokenDecimals": 18,
+        "earnedTokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+        "earnContractAddress": "0x673B6ABF39a4084D0D9b6e5eDe95AA970cc2Ae90",
+        "earnedOracle": "tokens",
+        "earnedOracleId": "WMNT",
+        "partnership": true,
+        "status": "active",
+        "isMooStaked": true,
+        "partners": [
+            "mantle"
+        ]
+    },
+    {
+        "id": "cvt_moe-minu-wmnt",
+        "poolId": "moe-minu-wmnt",
+        "name": "Mantle",
+        "assets": [
+            "MINU",
+            "WMNT"
+        ],
+        "tokenAddress": "0x6DEC755Effd9A7663995DC7Cf90fc6Cc8A52be0C",
+        "earnedToken": "WMNT",
+        "earnedTokenDecimals": 18,
+        "earnedTokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+        "earnContractAddress": "0x601dDbd5bFaa4E58fCeB0CaB53045f26A943e64a",
+        "earnedOracle": "tokens",
+        "earnedOracleId": "WMNT",
+        "partnership": true,
+        "status": "prestake",
+        "isMooStaked": true,
+        "partners": [
+            "mantle"
+        ]
+    },
+    {
+        "id": "cvt_moe-meth-weth",
+        "poolId": "moe-meth-weth",
+        "name": "Mantle",
+        "assets": [
+            "mETH",
+            "WETH"
+        ],
+        "tokenAddress": "0x16FA0C5f3eA649259C02c075dbA1C31fc66ea4E0",
+        "earnedToken": "WMNT",
+        "earnedTokenDecimals": 18,
+        "earnedTokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+        "earnContractAddress": "0xBa81f677609Ab095acd9c1d549EA3BfFbd047047",
+        "earnedOracle": "tokens",
+        "earnedOracleId": "WMNT",
+        "partnership": true,
+        "status": "active",
+        "isMooStaked": true,
+        "partners": [
+            "mantle"
+        ]
+    },
+    {
+        "id": "cvt_lendle-meth-looped",
+        "poolId": "lendle-meth-looped",
+        "name": "Mantle",
+        "assets": [
+            "mETH"
+        ],
+        "tokenAddress": "0x96520c74eF5CD3b4197871387cdd7C827463aBBb",
+        "earnedToken": "WMNT",
+        "earnedTokenDecimals": 18,
+        "earnedTokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+        "earnContractAddress": "0x4eBfee1D60c59BE90fcAe4f7c240C41957E54e0b",
+        "earnedOracle": "tokens",
+        "earnedOracleId": "WMNT",
+        "partnership": true,
+        "status": "active",
+        "isMooStaked": true,
+        "partners": [
+            "mantle"
+        ]
+    },
+    {
+        "id": "cvt_lendle-wmnt-looped",
+        "poolId": "lendle-wmnt-looped",
+        "name": "Lendle",
+        "assets": [
+            "WMNT"
+        ],
+        "tokenAddress": "0x2fA81D08d060c173305800D0bB72ebF71Ba2162B",
+        "earnedToken": "LEND",
+        "earnedTokenDecimals": 18,
+        "earnedTokenAddress": "0x25356aeca4210eF7553140edb9b8026089E49396",
+        "earnContractAddress": "0xCfAb453ac159FFF8Af0A61cd1a50Fb9B9377917b",
+        "earnedOracle": "tokens",
+        "earnedOracleId": "LEND",
+        "partnership": true,
+        "status": "finished",
+        "isMooStaked": true,
+        "partners": [
+            "lendle"
+        ]
+    },
+    {
+        "id": "cvt_lendle-weth-looped",
+        "poolId": "lendle-weth-looped",
+        "name": "Lendle",
+        "assets": [
+            "WETH"
+        ],
+        "tokenAddress": "0x803903BfCF6Aa63620F3598b1C60ccbA9C752276",
+        "earnedToken": "LEND",
+        "earnedTokenDecimals": 18,
+        "earnedTokenAddress": "0x25356aeca4210eF7553140edb9b8026089E49396",
+        "earnContractAddress": "0x1cC89504a77be95442e8CFbED8010A51a385c31a",
+        "earnedOracle": "tokens",
+        "earnedOracleId": "LEND",
+        "partnership": true,
+        "status": "finished",
+        "isMooStaked": true,
+        "partners": [
+            "lendle"
+        ]
+    },
+    {
+        "id": "cvt_lendle-usdt-looped",
+        "poolId": "lendle-usdt-looped",
+        "name": "Lendle",
+        "assets": [
+            "USDT"
+        ],
+        "tokenAddress": "0xa7cF0544fDaC7e173fb73733429AaE8a27Cb2637",
+        "earnedToken": "LEND",
+        "earnedTokenDecimals": 18,
+        "earnedTokenAddress": "0x25356aeca4210eF7553140edb9b8026089E49396",
+        "earnContractAddress": "0x466d27347A97ACa51b25FEd5D33E10AAe92b466A",
+        "earnedOracle": "tokens",
+        "earnedOracleId": "LEND",
+        "partnership": true,
+        "status": "finished",
+        "isMooStaked": true,
+        "partners": [
+            "lendle"
+        ]
+    },
+    {
+        "id": "cvt_lendle-usdc-looped",
+        "poolId": "lendle-usdc-looped",
+        "name": "Lendle",
+        "assets": [
+            "USDC"
+        ],
+        "tokenAddress": "0x5323E58f8A957823936d41637acB87311614104D",
+        "earnedToken": "LEND",
+        "earnedTokenDecimals": 18,
+        "earnedTokenAddress": "0x25356aeca4210eF7553140edb9b8026089E49396",
+        "earnContractAddress": "0xF948bB87664B9A9306fc108C786787E2F1129285",
+        "earnedOracle": "tokens",
+        "earnedOracleId": "LEND",
+        "partnership": true,
+        "status": "finished",
+        "isMooStaked": true,
+        "partners": [
+            "lendle"
+        ]
+    }
 ]
