@@ -966,7 +966,8 @@
     ],
     "buyTokenUrl": "https://merchantmoe.com/trade",
     "network": "mantle",
-    "createdAt": 1694025732
+    "createdAt": 1694025732,
+    "harvestOnDeposit": true
   },
 
   {
