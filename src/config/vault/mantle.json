@@ -1,5 +1,69 @@
 [
   {
+    "id": "moe-lend-meth",
+    "type": "standard",
+    "name": "LEND-mETH LP",
+    "token": "LEND-mETH LP",
+    "tokenAddress": "0xFb16B5CCC62dc125834c33BF6B063c87e6e6F581",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnedToken": "circuit moe-lend-meth",
+    "earnedTokenAddress": "0x7202C6C5E9788b4B3B38818f26C7084A7ECA1b48",
+    "earnContractAddress": "0x7202C6C5E9788b4B3B38818f26C7084A7ECA1b48",
+    "oracle": "lps",
+    "oracleId": "moe-lend-meth",
+    "status": "active",
+    "platformId": "moe",
+    "assets": [
+      "LEND",
+      "mETH"
+    ],
+    "risks": [
+      "COMPLEXITY_LOW",
+      "BATTLE_TESTED"
+    ],
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/pool/v1/0x25356aeca4210eF7553140edb9b8026089E49396/0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x25356aeca4210eF7553140edb9b8026089E49396/0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+    "removeLiquidityUrl": "https://merchantmoe.com/pool/v1/0x25356aeca4210eF7553140edb9b8026089E49396/0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+    "network": "mantle",
+    "createdAt": 1709851233,
+    "startBlock": 59835075,
+    "harvestOnDeposit": false
+  },
+  {
+    "id": "moe-minu-meth",
+    "type": "standard",
+    "name": "MINU-mETH LP",
+    "token": "MINU-mETH LP",
+    "tokenAddress": "0x05C53A5233E7105cAE6c37eE5A7bc7D43131625b",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnedToken": "circuit moe-minu-meth",
+    "earnedTokenAddress": "0xF58a335B9444BC7EAfEcA71d44F249dAbcC05FFA",
+    "earnContractAddress": "0xF58a335B9444BC7EAfEcA71d44F249dAbcC05FFA",
+    "oracle": "lps",
+    "oracleId": "moe-minu-meth",
+    "status": "active",
+    "platformId": "moe",
+    "assets": [
+      "MINU",
+      "mETH"
+    ],
+    "risks": [
+      "COMPLEXITY_LOW",
+      "BATTLE_TESTED"
+    ],
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/pool/v1/0x51cfe5b1E764dC253F4c8C1f19a081fF4C3517eD/0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x51cfe5b1E764dC253F4c8C1f19a081fF4C3517eD/0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+    "removeLiquidityUrl": "https://merchantmoe.com/pool/v1/0x51cfe5b1E764dC253F4c8C1f19a081fF4C3517eD/0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+    "network": "mantle",
+    "createdAt": 1709851233,
+    "startBlock": 59835139,
+    "harvestOnDeposit": false
+  },
+  {
     "id": "moe-usdt-meth",
     "type": "standard",
     "name": "USDT-mETH LP",
