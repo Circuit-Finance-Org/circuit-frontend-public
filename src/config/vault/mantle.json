@@ -823,6 +823,7 @@
     "buyTokenUrl": "https://merchantmoe.com/trade",
     "network": "mantle",
     "createdAt": 1703269259,
+    "startBlock": 29883043,
     "harvestOnDeposit": false
   },
   {
@@ -851,7 +852,9 @@
     "addLiquidityUrl": "https://stargate.finance/pool/USDC-MANTLE",
     "buyTokenUrl": "https://merchantmoe.com/trade",
     "network": "mantle",
-    "createdAt": 1701713439
+    "createdAt": 1701713439,
+    "startBlock": 24763947,
+    "harvestOnDeposit": false
   },
   {
     "id": "stargate-mantle-usdt",
@@ -879,7 +882,9 @@
     "addLiquidityUrl": "https://stargate.finance/pool/USDT-MANTLE",
     "buyTokenUrl": "https://merchantmoe.com/trade",
     "network": "mantle",
-    "createdAt": 1701713439
+    "createdAt": 1701713439,
+    "startBlock": 24763892,
+    "harvestOnDeposit": false
   },
   {
     "id": "ktx-mantle-ktc",
@@ -904,7 +909,10 @@
     ],
     "buyTokenUrl": "hhttps://merchantmoe.com/trade",
     "network": "mantle",
-    "createdAt": 1695318034
+    "createdAt": 1695318034,
+    "startBlock": 8547129,
+    "harvestOnDeposit": false
+
   },
   {
     "id": "lendle-wmnt-looped",
@@ -929,7 +937,9 @@
     ],
     "buyTokenUrl": "https://merchantmoe.com/trade",
     "network": "mantle",
-    "createdAt": 1694025732
+    "createdAt": 1694025732,
+    "startBlock": 5192099,
+    "harvestOnDeposit": true
   },
   {
     "id": "lendle-weth-looped",
@@ -955,7 +965,8 @@
     "buyTokenUrl": "https://merchantmoe.com/trade",
     "network": "mantle",
     "createdAt": 1694025732,
-    "harvestOnDeposit": false
+    "startBlock": 5192127,
+    "harvestOnDeposit": true
   },
   {
     "id": "lendle-wbtc-looped",
@@ -980,7 +991,9 @@
     ],
     "buyTokenUrl": "https://merchantmoe.com/trade",
     "network": "mantle",
-    "createdAt": 1694025732
+    "createdAt": 1694025732,
+    "startBlock": 5192140,
+    "harvestOnDeposit": true
   },
   {
     "id": "lendle-usdt-looped",
@@ -1005,7 +1018,9 @@
     ],
     "buyTokenUrl": "https://merchantmoe.com/trade",
     "network": "mantle",
-    "createdAt": 1694025732
+    "createdAt": 1694025732,
+    "startBlock": 5192170,
+    "harvestOnDeposit": true
   },
   {
     "id": "lendle-usdc-looped",
@@ -1031,6 +1046,7 @@
     "buyTokenUrl": "https://merchantmoe.com/trade",
     "network": "mantle",
     "createdAt": 1694025732,
+    "startBlock": 5192199,
     "harvestOnDeposit": true
   },
 
@@ -1064,6 +1080,7 @@
     "removeLiquidityUrl": "https://fusionx.finance/v2/remove/0x25356aeca4210eF7553140edb9b8026089E49396/MNT",
     "network": "mantle",
     "createdAt": 1693944300,
+    "startBlock": 5180594,
     "harvestOnDeposit": true
   }
 ]
