@@ -1,4 +1,166 @@
 [
+    {
+        "id": "moe-puff-meth",
+        "type": "standard",
+        "name": "PUFF-mETH LP",
+        "token": "PUFF-mETH LP",
+        "tokenAddress": "0xae9a0d9b1c9cd31D60FdBfe270CCb8C878bb15c8",
+        "tokenDecimals": 18,
+        "tokenProviderId": "moe",
+        "earnedToken": "circuit moe-puff-meth",
+        "earnedTokenAddress": "0xc91f199988749363bFF09F32fDfe2A5643A28c83",
+        "earnContractAddress": "0xc91f199988749363bFF09F32fDfe2A5643A28c83",
+        "oracle": "lps",
+        "oracleId": "moe-puff-meth",
+        "status": "active",
+        "platformId": "moe",
+        "assets": [
+            "PUFF",
+            "mETH"
+        ],
+        "risks": [
+            "COMPLEXITY_LOW",
+            "BATTLE_TESTED"
+        ],
+        "strategyTypeId": "lp",
+        "buyTokenUrl": "https://merchantmoe.com/pool/v1/0x26a6b0dcdCfb981362aFA56D581e4A7dBA3Be140/0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+        "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x26a6b0dcdCfb981362aFA56D581e4A7dBA3Be140/0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+        "removeLiquidityUrl": "https://merchantmoe.com/pool/v1/0x26a6b0dcdCfb981362aFA56D581e4A7dBA3Be140/0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+        "network": "mantle",
+        "createdAt": 1713194013,
+        "startBlock": 62531786,
+        "harvestOnDeposit": false
+    },
+    {
+        "id": "moe-usdt-ena",
+        "type": "standard",
+        "name": "USDT-ENA LP",
+        "token": "USDT-ENA LP",
+        "tokenAddress": "0xFf53524D0E01A00EcEc997d2EBb5f06860068709",
+        "tokenDecimals": 18,
+        "tokenProviderId": "moe",
+        "earnedToken": "circuit moe-usdt-ena",
+        "earnedTokenAddress": "0x47a8F37215c3c8AAe3C3c610C60806F5B784187F",
+        "earnContractAddress": "0x47a8F37215c3c8AAe3C3c610C60806F5B784187F",
+        "oracle": "lps",
+        "oracleId": "moe-usdt-ena",
+        "status": "active",
+        "platformId": "moe",
+        "assets": [
+            "USDT",
+            "ENA"
+        ],
+        "risks": [
+            "COMPLEXITY_LOW",
+            "BATTLE_TESTED"
+        ],
+        "strategyTypeId": "lp",
+        "buyTokenUrl": "https://merchantmoe.com/pool/v1/0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE/0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+        "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE/0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+        "removeLiquidityUrl": "https://merchantmoe.com/pool/v1/0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE/0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
+        "network": "mantle",
+        "createdAt": 1713194013,
+        "startBlock": 62531786,
+        "harvestOnDeposit": false
+    },
+    {
+        "id": "moe-ena-wmnt",
+        "type": "standard",
+        "name": "ENA-WMNT LP",
+        "token": "ENA-WMNT LP",
+        "tokenAddress": "0x32C1882bAf179f6059d101AAD3feAC15B2B90dA3",
+        "tokenDecimals": 18,
+        "tokenProviderId": "moe",
+        "earnedToken": "circuit moe-ena-wmnt",
+        "earnedTokenAddress": "0x23A23c8020D3f58ae6428a9A2E57f168Da521f07",
+        "earnContractAddress": "0x23A23c8020D3f58ae6428a9A2E57f168Da521f07",
+        "oracle": "lps",
+        "oracleId": "moe-ena-wmnt",
+        "status": "active",
+        "platformId": "moe",
+        "assets": [
+            "ENA",
+            "WMNT"
+        ],
+        "risks": [
+            "COMPLEXITY_LOW",
+            "BATTLE_TESTED"
+        ],
+        "strategyTypeId": "lp",
+        "buyTokenUrl": "https://merchantmoe.com/pool/v1/0x58538e6A46E07434d7E7375Bc268D3cb839C0133/0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+        "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x58538e6A46E07434d7E7375Bc268D3cb839C0133/0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+        "removeLiquidityUrl": "https://merchantmoe.com/pool/v1/0x58538e6A46E07434d7E7375Bc268D3cb839C0133/0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+        "network": "mantle",
+        "createdAt": 1713194013,
+        "startBlock": 62531786,
+        "harvestOnDeposit": false
+    },
+    {
+        "id": "moe-usdt-mshards",
+        "type": "standard",
+        "name": "USDT-mSHARDS LP",
+        "token": "USDT-mSHARDS LP",
+        "tokenAddress": "0x4bBf96C93EC63a4D021020Aee024aBe100597a31",
+        "tokenDecimals": 18,
+        "tokenProviderId": "moe",
+        "earnedToken": "circuit moe-usdt-mshards",
+        "earnedTokenAddress": "0xfbABbDC2fF4974EcFBE5623f205b5DeAF8f0776C",
+        "earnContractAddress": "0xfbABbDC2fF4974EcFBE5623f205b5DeAF8f0776C",
+        "oracle": "lps",
+        "oracleId": "moe-usdt-mshards",
+        "status": "active",
+        "platformId": "moe",
+        "assets": [
+            "USDT",
+            "mSHARDS"
+        ],
+        "risks": [
+            "COMPLEXITY_LOW",
+            "BATTLE_TESTED"
+        ],
+        "strategyTypeId": "lp",
+        "buyTokenUrl": "https://merchantmoe.com/pool/v1/0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE/0xD7782b99671DD23203eBd4584FC71cf2B3dbB111",
+        "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE/0xD7782b99671DD23203eBd4584FC71cf2B3dbB111",
+        "removeLiquidityUrl": "https://merchantmoe.com/pool/v1/0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE/0xD7782b99671DD23203eBd4584FC71cf2B3dbB111",
+        "network": "mantle",
+        "createdAt": 1713194013,
+        "startBlock": 62531786,
+        "harvestOnDeposit": false
+    },
+    {
+        "id": "mshards-wmnt",
+        "name": "WMNT",
+        "type": "standard",
+        "token": "WMNT",
+        "tokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+        "tokenDecimals": 18,
+        "earnedToken": "circuit-Shards-WMNT",
+        "earnedTokenAddress": "0xFF24e6dD3821a12290327411fdb8aAD3B2D52dFD",
+        "earnContractAddress": "0xFF24e6dD3821a12290327411fdb8aAD3B2D52dFD",
+        "oracle": "tokens",
+        "oracleId": "WMNT",
+        "status": "active",
+        "createdAt": 1713136410,
+        "startBlock": 62501936,
+        "platformId": "mshards",
+        "assets": [
+            "WMNT"
+        ],
+        "risks": [
+            "COMPLEXITY_LOW",
+            "IL_NONE",
+            "MCAP_LARGE",
+            "CONTRACTS_VERIFIED"
+        ],
+        "strategyTypeId": "single",
+        "buyTokenUrl": "https://merchantmoe.com/trade",
+        "network": "mantle",
+        "zaps": [
+            {
+                "strategyId": "single"
+            }
+        ]
+    },
   {
       "id": "cleo-wmnt-cleo",
       "type": "standard",
