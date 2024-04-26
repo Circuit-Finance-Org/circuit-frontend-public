@@ -1,5 +1,98 @@
 [
     {
+        "id": "cleo-wmnt-cleo",
+        "type": "standard",
+        "name": "WMNT-CLEO LP",
+        "token": "WMNT-CLEO LP",
+        "tokenAddress": "0x762B916297235dc920a8c684419e41Ab0099A242",
+        "tokenDecimals": 18,
+        "tokenProviderId": "cleopatra",
+        "earnedToken": "circuit cleo-wmnt-cleo",
+        "earnedTokenAddress": "0xAfCcAC392E64E97082bD666F5d7a45A12C4E83a9",
+        "earnContractAddress": "0xAfCcAC392E64E97082bD666F5d7a45A12C4E83a9",
+        "oracle": "lps",
+        "oracleId": "cleo-wmnt-cleo",
+        "status": "active",
+        "platformId": "cleopatra",
+        "assets": [
+            "WMNT",
+            "CLEO"
+        ],
+        "risks": [
+            "COMPLEXITY_HIGH"
+        ],
+        "strategyTypeId": "cleo",
+        "buyTokenUrl": "https://cleo.exchange/swap?from=0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8&to=0xC1E0C8C30F251A07a894609616580ad2CEb547F2",
+        "addLiquidityUrl": "https://cleo.exchange/manage/v1/0x762B916297235dc920a8c684419e41Ab0099A242",
+        "removeLiquidityUrl": "https://cleo.exchange/manage/v1/0x762B916297235dc920a8c684419e41Ab0099A242",
+        "network": "mantle",
+        "createdAt": 1712188880,
+        "startBlock": 62928766,
+        "harvestOnDeposit": false
+    },
+    {
+        "id": "cleo-usdc-ausd",
+        "type": "standard",
+        "name": "USDC-aUSD LP",
+        "token": "USDC-aUSD LP",
+        "tokenAddress": "0xABaFF1D3A706336570d4524DDfF2b1e03E35542C",
+        "tokenDecimals": 18,
+        "tokenProviderId": "cleopatra",
+        "earnedToken": "circuit cleo-usdc-ausd",
+        "earnedTokenAddress": "0xD80a7728Fbf6eF62aAd1604F58f6F9C9dF9F3dBa",
+        "earnContractAddress": "0xD80a7728Fbf6eF62aAd1604F58f6F9C9dF9F3dBa",
+        "oracle": "lps",
+        "oracleId": "cleo-usdc-ausd",
+        "status": "active",
+        "platformId": "cleopatra",
+        "assets": [
+            "USDC",
+            "aUSD"
+        ],
+        "risks": [
+            "COMPLEXITY_HIGH"
+        ],
+        "strategyTypeId": "cleo",
+        "buyTokenUrl": "https://cleo.exchange/swap?from=0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9&to=0xD2B4C9B0d70e3Da1fBDD98f469bD02E77E12FC79",
+        "addLiquidityUrl": "https://cleo.exchange/manage/v1/0xABaFF1D3A706336570d4524DDfF2b1e03E35542C",
+        "removeLiquidityUrl": "https://cleo.exchange/manage/v1/0xABaFF1D3A706336570d4524DDfF2b1e03E35542C",
+        "network": "mantle",
+        "createdAt": 1712188880,
+        "startBlock": 62928766,
+        "harvestOnDeposit": false
+    },
+    {
+        "id": "cleo-usdy-grai",
+        "type": "standard",
+        "name": "USDY-GRAI LP",
+        "token": "USDY-GRAI LP",
+        "tokenAddress": "0xe0C9164358FA66092Cb922B78712DBe9da459d0f",
+        "tokenDecimals": 18,
+        "tokenProviderId": "cleopatra",
+        "earnedToken": "circuit cleo-usdy-grai",
+        "earnedTokenAddress": "0x5e6C24F661DD8777Af72ed6bb2F52eb716293fD0",
+        "earnContractAddress": "0x5e6C24F661DD8777Af72ed6bb2F52eb716293fD0",
+        "oracle": "lps",
+        "oracleId": "cleo-usdy-grai",
+        "status": "active",
+        "platformId": "cleopatra",
+        "assets": [
+            "USDY",
+            "GRAI"
+        ],
+        "risks": [
+            "COMPLEXITY_HIGH"
+        ],
+        "strategyTypeId": "cleo",
+        "buyTokenUrl": "https://cleo.exchange/swap?from=0x5bE26527e817998A7206475496fDE1E68957c5A6&to=0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487",
+        "addLiquidityUrl": "https://cleo.exchange/manage/v1/0xe0C9164358FA66092Cb922B78712DBe9da459d0f",
+        "removeLiquidityUrl": "https://cleo.exchange/manage/v1/0xe0C9164358FA66092Cb922B78712DBe9da459d0f",
+        "network": "mantle",
+        "createdAt": 1712188880,
+        "startBlock": 62928766,
+        "harvestOnDeposit": false
+    },
+    {
         "id": "moe-puff-meth",
         "type": "standard",
         "name": "PUFF-mETH LP",
