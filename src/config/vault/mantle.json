@@ -201,7 +201,7 @@
         "earnContractAddress": "0xfbABbDC2fF4974EcFBE5623f205b5DeAF8f0776C",
         "oracle": "lps",
         "oracleId": "moe-usdt-mshards",
-        "status": "active",
+        "status": "eol",
         "platformId": "moe",
         "assets": [
             "USDT",
