@@ -1,5 +1,34 @@
 [
     {
+        "id": "lendle-usde-looped",
+        "type": "standard",
+        "name": "USDe",
+        "token": "USDe",
+        "tokenAddress": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "tokenDecimals": 18,
+        "earnedToken": "circuit-USDe-Lendle-Looped",
+        "earnedTokenAddress": "0xb0703792483ce3540AcCCaDccBdE30028779A5B8",
+        "earnContractAddress": "0xb0703792483ce3540AcCCaDccBdE30028779A5B8",
+        "oracle": "tokens",
+        "oracleId": "USDe",
+        "status": "active",
+        "platformId": "lendle",
+        "assets": [
+            "USDe"
+        ],
+        "strategyTypeId": "looping",
+        "risks": [
+            "COMPLEXITY_MID",
+            "BATTLE_TESTED",
+            "IL_NONE"
+        ],
+        "buyTokenUrl": "https://merchantmoe.com/trade",
+        "network": "mantle",
+        "createdAt": 1714750210,
+        "startBlock": 63309728,
+        "harvestOnDeposit": false
+    },
+    {
         "id": "cleo-wmnt-cleo",
         "type": "standard",
         "name": "WMNT-CLEO LP",
