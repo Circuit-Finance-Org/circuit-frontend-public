@@ -1,5 +1,34 @@
 [
     {
+        "id": "lendle-fbtc-looped",
+        "type": "standard",
+        "name": "FBTC",
+        "token": "FBTC",
+        "tokenAddress": "0xC96dE26018A54D51c097160568752c4E3BD6C364",
+        "tokenDecimals": 8,
+        "earnedToken": "circuit lendle-fbtc-looped",
+        "earnedTokenAddress": "0x6b899bf71d2C9Ed5838b1894D81cBF898e27B819",
+        "earnContractAddress": "0x6b899bf71d2C9Ed5838b1894D81cBF898e27B819",
+        "oracle": "tokens",
+        "oracleId": "FBTC",
+        "status": "active",
+        "platformId": "lendle",
+        "assets": [
+          "FBTC"
+        ],
+        "risks": [
+          "COMPLEXITY_MID",
+          "BATTLE_TESTED",
+          "IL_NONE"
+        ],
+        "strategyTypeId": "looping",
+        "buyTokenUrl": "https://merchantmoe.com/trade",
+        "network": "mantle",
+        "createdAt": 1724345396,
+        "startBlock": 68107152,
+        "harvestOnDeposit": false
+      },
+    {
         "id": "lendle-usde-looped",
         "type": "standard",
         "name": "USDe",
