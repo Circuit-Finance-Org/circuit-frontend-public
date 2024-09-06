@@ -163,7 +163,7 @@
         "earnContractAddress": "0xc91f199988749363bFF09F32fDfe2A5643A28c83",
         "oracle": "lps",
         "oracleId": "moe-puff-meth",
-        "status": "active",
+        "status": "paused",
         "platformId": "moe",
         "assets": [
             "PUFF",
@@ -195,7 +195,7 @@
         "earnContractAddress": "0x47a8F37215c3c8AAe3C3c610C60806F5B784187F",
         "oracle": "lps",
         "oracleId": "moe-usdt-ena",
-        "status": "active",
+        "status": "paused",
         "platformId": "moe",
         "assets": [
             "USDT",
@@ -227,7 +227,7 @@
         "earnContractAddress": "0x23A23c8020D3f58ae6428a9A2E57f168Da521f07",
         "oracle": "lps",
         "oracleId": "moe-ena-wmnt",
-        "status": "active",
+        "status": "paused",
         "platformId": "moe",
         "assets": [
             "ENA",
@@ -360,7 +360,7 @@
       "earnContractAddress": "0x4f7F492e506443354aD5Cd19139ad46964af5768",
       "oracle": "lps",
       "oracleId": "moe-moe-meth",
-      "status": "active",
+      "status": "paused",
       "platformId": "moe",
       "assets": [
           "MOE",
@@ -392,7 +392,7 @@
       "earnContractAddress": "0x16FA0C5f3eA649259C02c075dbA1C31fc66ea4E0",
       "oracle": "lps",
       "oracleId": "moe-meth-weth",
-      "status": "active",
+      "status": "paused",
       "platformId": "moe",
       "assets": [
           "mETH",
@@ -424,7 +424,7 @@
       "earnContractAddress": "0xc37c7dEBa5E7F5dE572C914D5c159EA08DE1fefF",
       "oracle": "lps",
       "oracleId": "moe-wmnt-meth",
-      "status": "active",
+      "status": "paused",
       "platformId": "moe",
       "assets": [
           "WMNT",
@@ -456,7 +456,7 @@
       "earnContractAddress": "0x6f73203E8Bf6a87720135c2f79aFfE7D2dF5D430",
       "oracle": "lps",
       "oracleId": "moe-joe-moe",
-      "status": "active",
+      "status": "paused",
       "platformId": "moe",
       "assets": [
           "JOE",
@@ -488,7 +488,7 @@
       "earnContractAddress": "0x15937B6342415145B559FDD1d112BC7132549b85",
       "oracle": "lps",
       "oracleId": "moe-usdt-moe",
-      "status": "active",
+      "status": "paused",
       "platformId": "moe",
       "assets": [
           "USDT",
@@ -616,7 +616,7 @@
       "earnContractAddress": "0x6CeaC8F90B7cAA311E025480503Bb0020B66f22A",
       "oracle": "lps",
       "oracleId": "moe-lend-wmnt",
-      "status": "active",
+      "status": "paused",
       "platformId": "moe",
       "assets": [
           "LEND",
@@ -712,7 +712,7 @@
       "earnContractAddress": "0xEE2e6C7E355bdcBfd60ed1fB858e10D431f3e6ca",
       "oracle": "lps",
       "oracleId": "moe-wmnt-weth",
-      "status": "active",
+      "status": "paused",
       "platformId": "moe",
       "assets": [
           "WMNT",
@@ -744,7 +744,7 @@
       "earnContractAddress": "0x43FcfD956826A8c3A545c742C316B824470AB921",
       "oracle": "lps",
       "oracleId": "moe-usdt-wmnt",
-      "status": "active",
+      "status": "paused",
       "platformId": "moe",
       "assets": [
           "USDT",
@@ -808,7 +808,7 @@
       "earnContractAddress": "0xB892c7642f3ad35174Efa8deEE3910AfA5bC7d71",
       "oracle": "lps",
       "oracleId": "moe-usdc-wmnt",
-      "status": "active",
+      "status": "paused",
       "platformId": "moe",
       "assets": [
           "USDC",
@@ -840,7 +840,7 @@
       "earnContractAddress": "0x671b28c4337A248b2fF71162267BBe5b00123F4A",
       "oracle": "lps",
       "oracleId": "moe-usdc-usdt",
-      "status": "active",
+      "status": "paused",
       "platformId": "moe",
       "assets": [
           "USDC",
