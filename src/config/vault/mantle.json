@@ -1051,7 +1051,8 @@
       "earnContractAddress": "0x693cb6bA442A19226f15233ab1D5a14530170398",
       "oracle": "tokens",
       "oracleId": "WBTC",
-      "status": "paused",
+      "status": "eol",
+      "retireReason": "LendleWBTC",
       "platformId": "lendle",
       "assets": [
           "WBTC"
