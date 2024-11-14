@@ -14,7 +14,7 @@
         "earnedOracle": "tokens",
         "earnedOracleId": "WMNT",
         "partnership": true,
-        "status": "prestake",
+        "status": "active",
         "isMooStaked": true,
         "partners": [
           "mantle"
