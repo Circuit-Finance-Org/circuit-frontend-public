@@ -1,5 +1,26 @@
 [
     {
+        "id": "cvt_lendle-cmeth-looped",
+        "poolId": "lendle-cmeth-looped",
+        "name": "Mantle",
+        "assets": [
+          "CMETH"
+        ],
+        "tokenAddress": "0x59e641dE941cC794cdf6152EdA0eF51210373d95",
+        "earnedToken": "WMNT",
+        "earnedTokenDecimals": 18,
+        "earnedTokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
+        "earnContractAddress": "0x0e25e1f7770b22A7377888824e99fB58b0C12A9E",
+        "earnedOracle": "tokens",
+        "earnedOracleId": "WMNT",
+        "partnership": true,
+        "status": "prestake",
+        "isMooStaked": true,
+        "partners": [
+          "mantle"
+        ]
+      },
+    {
         "id": "cvt_moe-moe-meth",
         "poolId": "moe-moe-meth",
         "name": "OASIS",
