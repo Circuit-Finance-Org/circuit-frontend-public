@@ -1,5 +1,34 @@
 [
     {
+        "id": "lendle-cmeth-looped",
+        "type": "standard",
+        "name": "CMETH",
+        "token": "CMETH",
+        "tokenAddress": "0xE6829d9a7eE3040e1276Fa75293Bde931859e8fA",
+        "tokenDecimals": 18,
+        "earnedToken": "circuit lendle-cmeth-looped",
+        "earnedTokenAddress": "0x59e641dE941cC794cdf6152EdA0eF51210373d95",
+        "earnContractAddress": "0x59e641dE941cC794cdf6152EdA0eF51210373d95",
+        "oracle": "tokens",
+        "oracleId": "CMETH",
+        "status": "active",
+        "platformId": "lendle",
+        "assets": [
+            "CMETH"
+        ],
+        "risks": [
+            "COMPLEXITY_MID",
+            "BATTLE_TESTED",
+            "IL_NONE"
+        ],
+        "strategyTypeId": "looping",
+        "buyTokenUrl": "https://merchantmoe.com/trade",
+        "network": "mantle",
+        "createdAt": 1731535647,
+        "startBlock": 71702670,
+        "harvestOnDeposit": false
+    },,
+    {
         "id": "lendle-fbtc-looped",
         "type": "standard",
         "name": "FBTC",
