@@ -149,37 +149,6 @@
         "harvestOnDeposit": false
     },
     {
-        "id": "cleo-usdy-grai",
-        "type": "standard",
-        "name": "USDY-GRAI LP",
-        "token": "USDY-GRAI LP",
-        "tokenAddress": "0xe0C9164358FA66092Cb922B78712DBe9da459d0f",
-        "tokenDecimals": 18,
-        "tokenProviderId": "cleopatra",
-        "earnedToken": "circuit cleo-usdy-grai",
-        "earnedTokenAddress": "0x5e6C24F661DD8777Af72ed6bb2F52eb716293fD0",
-        "earnContractAddress": "0x5e6C24F661DD8777Af72ed6bb2F52eb716293fD0",
-        "oracle": "lps",
-        "oracleId": "cleo-usdy-grai",
-        "status": "active",
-        "platformId": "cleopatra",
-        "assets": [
-            "USDY",
-            "GRAI"
-        ],
-        "risks": [
-            "COMPLEXITY_HIGH"
-        ],
-        "strategyTypeId": "cleo",
-        "buyTokenUrl": "https://cleo.exchange/swap?from=0x5bE26527e817998A7206475496fDE1E68957c5A6&to=0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487",
-        "addLiquidityUrl": "https://cleo.exchange/manage/v1/0xe0C9164358FA66092Cb922B78712DBe9da459d0f",
-        "removeLiquidityUrl": "https://cleo.exchange/manage/v1/0xe0C9164358FA66092Cb922B78712DBe9da459d0f",
-        "network": "mantle",
-        "createdAt": 1712188880,
-        "startBlock": 62928766,
-        "harvestOnDeposit": false
-    },
-    {
         "id": "moe-ena-wmnt",
         "type": "standard",
         "name": "ENA-WMNT LP",
@@ -729,38 +698,6 @@
       "harvestOnDeposit": false
   },
   {
-      "id": "moe-usdc-usdt",
-      "type": "standard",
-      "name": "USDC-USDT LP",
-      "token": "USDC-USDT LP",
-      "tokenAddress": "0x8E3A13418743aB1a98434551937Ea687E451B589",
-      "tokenDecimals": 18,
-      "tokenProviderId": "moe",
-      "earnedToken": "circuit-usdc-usdt-moechef",
-      "earnedTokenAddress": "0x671b28c4337A248b2fF71162267BBe5b00123F4A",
-      "earnContractAddress": "0x671b28c4337A248b2fF71162267BBe5b00123F4A",
-      "oracle": "lps",
-      "oracleId": "moe-usdc-usdt",
-      "status": "paused",
-      "platformId": "moe",
-      "assets": [
-          "USDC",
-          "USDT"
-      ],
-      "risks": [
-          "COMPLEXITY_LOW",
-          "BATTLE_TESTED"
-      ],
-      "strategyTypeId": "lp",
-      "buyTokenUrl": "https://merchantmoe.com/trade/",
-      "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9/0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
-      "removeLiquidityUrl": "https://merchantmoe.com/pool/v1/0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9/0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE",
-      "network": "mantle",
-      "createdAt": 1704823500,
-      "startBlock": 41875592,
-      "harvestOnDeposit": false
-  },
-  {
       "id": "lendle-meth-looped",
       "type": "standard",
       "name": "mETH",
@@ -819,38 +756,6 @@
       "network": "mantle",
       "createdAt": 1701713439,
       "startBlock": 24763947,
-      "harvestOnDeposit": false
-  },
-  {
-      "id": "stargate-mantle-usdt",
-      "name": "USDT LP",
-      "type": "standard",
-      "token": "S*USDT",
-      "tokenAddress": "0x2b60473a7C41Deb80EDdaafD5560e963440eb632",
-      "tokenDecimals": 6,
-      "tokenProviderId": "stargate",
-      "earnedToken": "circuit-USDT-Stargate",
-      "earnedTokenAddress": "0xCE2a5f4E186d0B173059b6e71EC226F6ecD506A2",
-      "earnContractAddress": "0xCE2a5f4E186d0B173059b6e71EC226F6ecD506A2",
-      "oracle": "lps",
-      "oracleId": "stargate-mantle-usdt",
-      "status": "active",
-      "platformId": "stargate",
-      "assets": [
-          "USDT"
-      ],
-      "strategyTypeId": "single-lp",
-      "risks": [
-          "COMPLEXITY_LOW",
-          "BATTLE_TESTED",
-          "IL_NONE",
-          "CONTRACTS_VERIFIED"
-      ],
-      "addLiquidityUrl": "https://stargate.finance/pool/USDT-MANTLE",
-      "buyTokenUrl": "https://merchantmoe.com/trade",
-      "network": "mantle",
-      "createdAt": 1701713439,
-      "startBlock": 24763892,
       "harvestOnDeposit": false
   },
   {
