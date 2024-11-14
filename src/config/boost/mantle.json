@@ -10,7 +10,7 @@
         "earnedToken": "WMNT",
         "earnedTokenDecimals": 18,
         "earnedTokenAddress": "0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8",
-        "earnContractAddress": "0x0e25e1f7770b22A7377888824e99fB58b0C12A9E",
+        "earnContractAddress": "0x5b27576159d201697feB73E7CBe5DafCfdc9b0DC",
         "earnedOracle": "tokens",
         "earnedOracleId": "WMNT",
         "partnership": true,
