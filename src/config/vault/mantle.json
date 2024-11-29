@@ -99,7 +99,7 @@
         "earnContractAddress": "0xAfCcAC392E64E97082bD666F5d7a45A12C4E83a9",
         "oracle": "lps",
         "oracleId": "cleo-wmnt-cleo",
-        "status": "active",
+        "status": "eol",
         "platformId": "cleopatra",
         "assets": [
             "WMNT",
@@ -130,7 +130,7 @@
         "earnContractAddress": "0xD80a7728Fbf6eF62aAd1604F58f6F9C9dF9F3dBa",
         "oracle": "lps",
         "oracleId": "cleo-usdc-ausd",
-        "status": "active",
+        "status": "eol",
         "platformId": "cleopatra",
         "assets": [
             "USDC",
